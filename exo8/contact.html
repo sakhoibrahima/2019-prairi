@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="html.html">Index</a>
+        <a href="php.html">PHP</a>
+        <a href="sql.html">SQL</a>
+      </nav>
+    </header>
+    <section>
+      <form method="POST">
+        <br />
+        <strong>Prénom<font color="red">*</font></strong><br />
+        <input type="text" name="firstname" required minlength="3" maxlength="24" size="24"><br />
+        <br />
+        <strong>Nom<font color="red">*</font></strong><br />
+        <input type="text" name="lastname" required minlength="3" maxlength="24" size="24"><br />
+        <br />
+        <strong>Email<font color="red">*</font></strong><br />
+        <input type="email" name="email" required minlength="3" maxlength="24" size="24"><br />
+        <br />
+        <strong>Age</label></strong><br />
+        <input type="date" name="bday" required min="3" max="99"><br />
+        <br />
+        <strong>Téléphone</strong><br />
+        <input type="tel" name="phone" required pattern="[0-9]{10}"><br />
+        <br />
+        <strong>Genre</strong><br />
+        <input type="radio" name="gender" value="female" checked> Female<br />
+        <input type="radio" name="gender" value="male" checked> Male<br />
+        <input type="radio" name="gender" value="other" checked> Other<br />
+        <br />
+        <strong>Couleur préférée</strong><br />
+        <input type="color" name="favcolor" required><br />
+        <br />
+        <strong>Date<font color="red">*</font></strong><br />
+        <input type="date" name="date" required min="2019-04-27"><br />
+        <br />
+        <strong>Technologie</strong><br />
+        <select name="technology" required>
+          <option value="php">PHP</option>
+          <option value="sql">SQL</option>
+          </select><br />
+        <br />
+        <strong>Question<font color="red">*</font></strong><br />
+        <textarea name="message" rows="10" cols="69" required></textarea><br /><br />
+        <input type="submit" value="Soumettre">
+      </form>
+    </section>
+    <aside>
+    
+    </aside>
+    <footer>
+      <adress></adress>
+    </footer>
+  </body>
+</html>
